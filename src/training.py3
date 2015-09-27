@@ -207,7 +207,7 @@ predictions = np.concatenate(predictions, axis=0)
 accuracy = sum(predictions[predictions == data["Survived"]]) / len(predictions)
 print("Ensembling and Gradient Boosting:", accuracy)
 
-
+# # submit to dataquest
 # submission = pandas.DataFrame ({
 #     "PassengerId": titanic_test["PassengerID"],
 #     "Survived": predictions
